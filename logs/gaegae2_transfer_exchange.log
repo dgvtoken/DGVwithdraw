@@ -1,0 +1,4 @@
+Sat, 10 Aug 2019 21:20:59 withraw_atom_send.py[line:133] ERROR transfer fail,request:{'id': 2, 'uni_uuid': '6d64d1c1a3dc78309dbb49ed736c9da2', 'user_id': 7, 'to_account': 'liujunxian44', 'amount': Decimal('1.0000'), 'asset_code': 'KOK', 'memo': '', 'need_audit': 'NO', 'audit_status': 'PASS', 'withdraw_status': 'INIT', 'fail_message': None, 'create_time': 1565353296244, 'update_time': 1565353301292, 'block_num': '73296270', 'block_time': '2019-08-10T13:20:59.500', 'status': 'SUCCESS'},stack trace:must be str, not int
+Sat, 10 Aug 2019 21:34:42 withraw_atom_send.py[line:116] ERROR wallet lock at this time, wait next for withdraw
+Mon, 12 Aug 2019 22:06:19 withraw_atom_send.py[line:168] ERROR runloop failed
+Mon, 12 Aug 2019 22:06:19 withraw_atom_send.py[line:169] ERROR (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
